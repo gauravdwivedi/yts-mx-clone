@@ -7,10 +7,11 @@ import './Navbar.css'
 
 export default function Navbar() {
     return (
-        <div className="navbar">
+        <div className="navbar" >
             <Link to='/'>
-                <img src={logo} alt="Logo"/>
-            </Link><Route path="/" component={Home}/>
-        </div>
-    )
+                <span style={{color:'white'}}>Home</span>
+            </Link>
+            
+            <Route path="/" component={Home}/>
+        </div>  )
 }

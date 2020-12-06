@@ -8,7 +8,7 @@ import star from '../../src/assets/star.svg'
     return (
         <div className="movie">
             <div className="movie__container">
-                <img src={props.movie.medium_cover_image}/>
+                <img src={props.movie.medium_cover_image} alt="movies"/>
                 <div className="overlay">
                     <img src={star} alt="star"/>
                     <h2>{props.movie?.rating || 5} / 10</h2>
