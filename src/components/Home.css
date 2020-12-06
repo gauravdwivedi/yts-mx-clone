@@ -1,0 +1,11 @@
+.movies {
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-column-gap: 4rem;
+  border: 1px white solid;
+}
+
+.movies > div {
+  margin-bottom: 8rem;
+}

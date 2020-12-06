@@ -1,0 +1,21 @@
+//LIST OF MOVIES 
+export const GET_MOVIES ='GET_MOVIES'
+export const GET_MOVIES_START='GET_MOVIES_START'
+export const GET_MOVIES_SUCCESS='GET_MOVIES_SUCCESS'
+export const GET_MOVIES_ERROR = 'GET_MOVIES_ERROR'
+
+
+//Single Movie
+export const GET_MOVIE= 'GET_MOVIE'
+export const GET_MOVIE_START='GET_MOVIE_START'
+export const GET_MOVIE_SUCCESS='GET_MOVIE_SUCCESS'
+export const GET_MOVIE_ERROR = 'GET_MOVIE_ERROR'
+
+
+//Search a Movie
+export const SEARCH_START ='SEARCH_START'
+export const SEARCH_SUCCESS ='SEARCH_SUCCESS'
+export const SEARCH_ERROR= 'SEARCH_ERROR'
+
+
+
