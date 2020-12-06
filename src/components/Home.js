@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {getMovies} from '../actions/getMovies'
 import  DisplayMovie from './MovieDisplay'
+import {Helmet} from 'react-helmet'
 import './Home.css'
 
 export class Home extends Component {
@@ -18,6 +19,9 @@ export class Home extends Component {
         const movies = this.props.movies.movies
         return (
             <div className="movies "> 
+            <Helmet>
+                <title>Yts.mx- Clone</title>
+            </Helmet>
               {movies.map((movie)=>(
                   <DisplayMovie movie={movie}/>
               ))}
